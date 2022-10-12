@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Meridian</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+
+  <div class="site-container">
+
+    <div class="sale">
+  <div class="container">
+    <div class="sale__text">
+      spring seaSon sale | 20% off entire store | Free Premium UK Delivery
+    </div>
+  </div>
+</div>
+
+    <header class="header">
+  <div class="container header__container">
+    <div class="header__mobile mobile">
+      <button class="btn-reset burger" aria-label="burger">
+        <span class="burger__line"></span>
+      </button>
+    </div>
+    <nav class="header__nav nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="index.html" class="nav__link nav__link--slate">
+            Home
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="catalog.html" class="nav__link nav__link--slate">
+            Products
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link nav__link--slate">
+            Showroom
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="about.html" class="nav__link nav__link--slate">
+            About Us
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="contact.html" class="nav__link nav__link--slate">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <a href="index.html" class="header__logo">
+      <img src="img/logo.png" alt="meridian" class="header__logo-img">
+    </a>
+    <div class="header__right">
+      <nav class="header__nav nav nav--right">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Dealer Login
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Become A Dealer
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Find A Retail
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__menu">
+        <a href="cart.html" class="header__menu-link header__cart">
+          <span class="header__cart-counter">
+            1
+          </span>
+        </a>
+        <a href="#" class="header__menu-link header__search"></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="cart">
+  <div class="container">
+    <div class="page-nav">
+      <a href="index.html" class="page-nav__link page-nav__link--prev" aria-label="go back">
+        Home
+      </a>
+      <span class="page-nav__separator">
+        /
+      </span>
+      <a href="#" class="page-nav__link">
+        Shopping cart
+      </a>
+    </div>
+    <div class="cart__row">
+      <div class="cart__shop">
+        <h2 class="cart__shop-title heading-3">
+          Shopping Cart
+        </h2>
+        <table class="cart__shop-table cart-table">
+          <tr class="cart-table__row">
+            <th class="cart-table__caption cart-table__caption--products">Products</th>
+            <th class="cart-table__caption cart-table__caption--quantity">Quantity</th>
+            <th class="cart-table__caption cart-table__caption--total">Total</th>
+          </tr>
+          <tr class="cart__shop-table cart-table__product">
+            <td class="cart-table__product-info">
+              <img src="img/cart-img-1.png" alt="product image" class="cart-table__product-img">
+              <a href="#" class="cart-table__product-title" aria-label="product">
+                Serene Linen Deluxe Cloud
+              </a>
+            </td>
+            <td class="cart-table__product-quantity">
+              <div class="cart-table__quantity">
+                <button class="cart-table__quantity-minus cart-table__quantity-actions btn-reset" aria-label="redus">
+                  <span></span>
+                </button>
+                <span class="cart-table__quantity-current">
+                  1
+                </span>
+                <button class="cart-table__quantity-plus cart-table__quantity-actions btn-reset" aria-label="add">
+                  +
+                </button>
+              </div>
+            </td>
+            <td class="cart-table__product-total">
+              <div class="cart-table__total">
+                £2,500.00
+              </div>
+            </td>
+            <td class="cart-table__product-del">
+              <button class="btn-reset cart-table__del" aria-label="delete product">
+                <span class="cart-table__del-icon"></span>
+              </button>
+            </td>
+          </tr>
+          <tr class="cart__shop-table cart-table__product">
+            <td class="cart-table__product-info">
+              <img src="img/cart-img-1.png" alt="product image" class="cart-table__product-img">
+              <a href="#" class="cart-table__product-title" aria-label="product">
+                Hilton Boucle Fabric Chaise Lounge
+              </a>
+            </td>
+            <td class="cart-table__product-quantity">
+              <div class="cart-table__quantity">
+                <button class="cart-table__quantity-minus cart-table__quantity-actions btn-reset" aria-label="redus">
+                  <span></span>
+                </button>
+                <span class="cart-table__quantity-current">
+                  1
+                </span>
+                <button class="cart-table__quantity-plus cart-table__quantity-actions btn-reset" aria-label="add">
+                  +
+                </button>
+              </div>
+            </td>
+            <td class="cart-table__product-total">
+              <div class="cart-table__total">
+                £2,500.00
+              </div>
+            </td>
+            <td class="cart-table__product-del">
+              <button class="btn-reset cart-table__del" aria-label="delete product">
+                <span class="cart-table__del-icon"></span>
+              </button>
+            </td>
+          </tr>
+        </table>
+        <div class="cart__mobile cart-mobile">
+          <div class="cart-mobile__item">
+            <img src="img/cart-img-1.png" alt="product image" class="cart-mobile__img">
+            <div class="cart-mobile__right">
+              <div class="cart-mobile__info">
+                <div class="cart-mobile__title">
+                  Serene Linen Deluxe Cloud
+                </div>
+                <div class="cart-mobile__price">
+                  <div class="cart-mobile__price-full cart-mobile__price-val">
+                    $60.00
+                  </div>
+                  <div class="cart-mobile__price-old">
+                    <s class="cart-mobile__price-invalid cart-mobile__price-val">
+                      $100.0
+                    </s>
+                    <span class="cart-mobile__price-discount cart-mobile__price-val">
+                      40% Off
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="cart-mobile__changes">
+                <div class="cart-mobile__colors">
+                  <div class="cart-mobile__colors-item cart-mobile__colors-item--black cart-mobile__colors-item--active"></div>
+                  <div class="cart-mobile__colors-item cart-mobile__colors-item--light"></div>
+                  <div class="cart-mobile__colors-item cart-mobile__colors-item--gray"></div>
+                  <div class="cart-mobile__colors-item cart-mobile__colors-item--green"></div>
+                  <div class="cart-mobile__colors-item cart-mobile__colors-item--orange"></div>
+                </div>
+                <button class="btn-reset cart-mobile__remove">
+                  <span class="cart-mobile__remove-text">
+                    Remove
+                  </span>
+                  <img src="img/cart-mobile-remove-icon.svg" alt="remove product" class="cart-mobile__remove-icon">
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="cart-mobile__item">
+            <img src="img/cart-img-1.png" alt="product image" class="cart-mobile__img">
+            <div class="cart-mobile__right">
+              <div class="cart-mobile__info">
+                <div class="cart-mobile__title">
+                  Serene Linen Deluxe Cloud
+                </div>
+                <div class="cart-mobile__price">
+                  <div class="cart-mobile__price-full cart-mobile__price-val">
+                    $60.00
+                  </div>
+                  <div class="cart-mobile__price-old">
+                    <s class="cart-mobile__price-invalid cart-mobile__price-val">
+                      $100.0
+                    </s>
+                    <span class="cart-mobile__price-discount cart-mobile__price-val">
+                      40% Off
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="cart-mobile__changes">
+                <div class="cart-mobile__colors">
+                  <div class="cart-mobile__colors-item cart-mobile__colors-item--black cart-mobile__colors-item--active"></div>
+                  <div class="cart-mobile__colors-item cart-mobile__colors-item--light"></div>
+                  <div class="cart-mobile__colors-item cart-mobile__colors-item--gray"></div>
+                  <div class="cart-mobile__colors-item cart-mobile__colors-item--green"></div>
+                  <div class="cart-mobile__colors-item cart-mobile__colors-item--orange"></div>
+                </div>
+                <button class="btn-reset cart-mobile__remove">
+                  <span class="cart-mobile__remove-text">
+                    Remove
+                  </span>
+                  <img src="img/cart-mobile-remove-icon.svg" alt="remove product" class="cart-mobile__remove-icon">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card__order">
+        <h2 class="card__order-title heading-3">
+          Order Summary
+        </h2>
+        <div class="card__order-body order">
+          <div class="order__subtotal order__total">
+            <div class="order__subtotal-caption order__total-caption">
+              Subtotal
+            </div>
+            <div class="order__subtotal-fullprice order__total-price">
+              £5,000.00
+            </div>
+          </div>
+          <div class="order__additionally">
+            (includes £416.67 20% VAT)
+          </div>
+          <div class="order__options">
+            <div class="order__options-item">
+              <div class="order__options-left">
+                <input type="radio" class="order__options-input" id="standard" name="rate" checked>
+                <label for="standard" class="order__options-field">
+                  <span class="order__options-radio"></span>
+                </label>
+                <div class="order__options-title">
+                  Standard Free Shipping
+                </div>
+              </div>
+              <div class="order__options-price">
+                £00.00
+              </div>
+            </div>
+            <div class="order__options-item">
+              <div class="order__options-left">
+                <input type="radio" class="order__options-input" id="premium" name="rate">
+                <label for="premium" class="order__options-field"></label>
+                <div class="order__options-title">
+                  Premium Shipping
+                </div>
+              </div>
+              <div class="order__options-price">
+                £118.80
+              </div>
+            </div>
+          </div>
+          <div class="order__finalprice order__total">
+            <div class="order__finalprice-caption order__total-caption">
+              Total
+            </div>
+            <div class="order__finalprice-value order__total-price">
+              £5,000.00
+            </div>
+          </div>
+          <button class="btn-reset order__proceed" aria-label="Proceed To Checkout">
+            Proceed To Checkout
+          </button>
+          <ul class="order__payment">
+            <li class="order__payment-item">
+              <button class="btn-reset order__payment-btn" aria-label="mastercard">
+                <img src="img/mastercard.svg" alt="mastercard" class="order__payment-icon">
+              </button>
+            </li>
+            <li class="order__payment-item">
+              <button class="btn-reset order__payment-btn" aria-label="visa">
+                <img src="img/visa.svg" alt="visa" class="order__payment-icon">
+              </button>
+            </li>
+            <li class="order__payment-item">
+              <button class="btn-reset order__payment-btn" aria-label="google-pay">
+                <img src="img/google-pay.svg" alt="google-pay" class="order__payment-icon">
+              </button>
+            </li>
+            <li class="order__payment-item">
+              <button class="btn-reset order__payment-btn" aria-label="apple-pay">
+                <img src="img/apple-pay.svg" alt="apple-pay" class="order__payment-icon">
+              </button>
+            </li>
+          </ul>
+          <div class="order__text">
+            Discount prices will be active after entering the checkout process
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      <section class="help">
+  <div class="container help__container">
+    <div class="help__intro">
+      <h1 class="main-title help__title">
+        How Can We Help You?
+      </h1>
+      <div class="main-subtitle help__subtitle">
+        We pride ourselves on superior customer service. Speak to a member of our sales team to help with your order.
+      </div>
+      <a href="mailto:support@Meridian.com" class="help__email">
+        Get In Touch support@Meridian.com
+      </a>
+    </div>
+    <div class="help__info">
+      <a href="tel:01789339533" class="help__phone">
+        <img src="img/help-phone.svg" alt="call us" class="help__phone-ico">
+        01789 339533
+      </a>
+      <div class="help__info-worktime">
+        8am to 6pm, 7 days a week
+      </div>
+    </div>
+  </div>
+</section>
+    </main>
+
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__logo">
+      <img src="img/footer-logo.png" alt="meridian" class="footer__logo-img">
+    </div>
+    <div class="footer__middle">
+      <div class="footer__office">
+        <div class="footer__office-title">
+          Head Office
+        </div>
+        <div class="footer__office-address">
+          32 Plum St, Trenton, NJ 08638, United States
+        </div>
+        <div class="footer__contacts">
+          <a href="tel:01789730695" class="footer__contacts-link">
+            <img src="img/footer-phone.svg" alt="phone" class="footer__contacts-ico">
+            <span class="footer__contacts-date">
+              01789 730695
+            </span>
+          </a>
+          <a href="mailto:support@Meridian.com" class="footer__contacts-link">
+            <img src="img/footer-mail.svg" alt="email" class="footer__contacts-ico">
+            <span class="footer__contacts-date">
+              support@Meridian.com
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="footer__middle-right">
+        <nav class="footer__nav">
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item">
+              <span class="footer__nav-title">
+                Product
+              </span>
+            </li>
+            <li class="footer__nav-item">
+              <a href="catalog.html" class="footer__nav-link">
+                New Arrival
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="catalog.html" class="footer__nav-link">
+                Living Room
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="catalog.html" class="footer__nav-link">
+                Kitchen & Dining Room
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="catalog.html" class="footer__nav-link">
+                Bed Room
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="catalog.html" class="footer__nav-link">
+                Accent
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="catalog.html" class="footer__nav-link">
+                Occasional Table
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="catalog.html" class="footer__nav-link">
+                Office/Home Office
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="catalog.html" class="footer__nav-link">
+                Outdoor Furniture
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__nav">
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item">
+              <span class="footer__nav-title">
+                Help
+              </span>
+            </li>
+            <li class="footer__nav-item">
+              <a href="about.html" class="footer__nav-link">
+                About Us
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="contact.html" class="footer__nav-link">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__join">
+          <div class="footer__join-caption">
+            Join Meridian for Exclusive Offers
+          </div>
+          <form action="/" class="footer__form">
+            <input type="email" class="footer__form-input" placeholder="Email address">
+            <button class="btn-reset footer__form-submit" type="submit">
+              <img src="img/footer-submit-arrow.svg" alt="arrow" class="footer__form-arrow">
+            </button>
+          </form>
+          <p class="footer__join-newsletter">
+            Our newsletter is packed full of style ideas, new products and exclusive disounts. We are GDPR compliant, your
+            information is secure with us.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__row">
+        <ul class="footer__policy">
+          <li class="footer__policy-item">
+            <a href="#" class="footer__policy-link">
+              Terms & Conditions
+            </a>
+          </li>
+          <li class="footer__policy-item">
+            <a href="#" class="footer__policy-link">
+              Privacy Policy
+            </a>
+          </li>
+          <li class="footer__policy-item">
+            <a href="#" class="footer__policy-link">
+              Shipping Policy
+            </a>
+          </li>
+        </ul>
+        <div class="footer__follow">
+          <div class="footer__follow-title">
+            Follow Us
+          </div>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link">
+              <img src="img/footer-fb.svg" alt="facebook" class="footer__social-icon">
+            </a>
+            <a href="#" class="footer__social-link">
+              <img src="img/footer-inst.svg" alt="instagramm" class="footer__social-icon">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__payment">
+        <button class="btn-reset footer__payment-btn">
+          <img src="img/footer-payment-1.svg" alt="mastercard" class="footer__payment-preview">
+        </button>
+        <button class="btn-reset footer__payment-btn">
+          <img src="img/footer-payment-2.svg" alt="visa" class="footer__payment-preview">
+        </button>
+        <button class="btn-reset footer__payment-btn">
+          <img src="img/footer-payment-3.svg" alt="google pay" class="footer__payment-preview">
+        </button>
+        <button class="btn-reset footer__payment-btn">
+          <img src="img/footer-payment-4.svg" alt="apple pay" class="footer__payment-preview">
+        </button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+</body>
+
+</html>
